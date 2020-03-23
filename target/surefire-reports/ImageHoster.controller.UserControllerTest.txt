@@ -1,0 +1,154 @@
+-------------------------------------------------------------------------------
+Test set: ImageHoster.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 2.644 s <<< FAILURE! - in ImageHoster.controller.UserControllerTest
+signupWithCorrectPasswordType(ImageHoster.controller.UserControllerTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class ImageHoster.service.UserService.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 11.0.6+8-LTS
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 11.0.6+8-LTS
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.2
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.IllegalStateException: Could not find sun.misc.Unsafe
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String, [B, int, int, java.lang.ClassLoader, java.security.ProtectionDomain)
+
+logout(ImageHoster.controller.UserControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class ImageHoster.service.UserService.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 11.0.6+8-LTS
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 11.0.6+8-LTS
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.2
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.IllegalStateException: Could not find sun.misc.Unsafe
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String, [B, int, int, java.lang.ClassLoader, java.security.ProtectionDomain)
+
+signinWithGetRequest(ImageHoster.controller.UserControllerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class ImageHoster.service.UserService.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 11.0.6+8-LTS
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 11.0.6+8-LTS
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.2
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.IllegalStateException: Could not find sun.misc.Unsafe
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String, [B, int, int, java.lang.ClassLoader, java.security.ProtectionDomain)
+
+signupWithWrongPasswordType(ImageHoster.controller.UserControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class ImageHoster.service.UserService.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 11.0.6+8-LTS
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 11.0.6+8-LTS
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.2
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.IllegalStateException: Could not find sun.misc.Unsafe
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String, [B, int, int, java.lang.ClassLoader, java.security.ProtectionDomain)
+
+signupWithGetRequest(ImageHoster.controller.UserControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class ImageHoster.service.UserService.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 11.0.6+8-LTS
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 11.0.6+8-LTS
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.2
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.IllegalStateException: Could not find sun.misc.Unsafe
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String, [B, int, int, java.lang.ClassLoader, java.security.ProtectionDomain)
+
+signinWithWrongCredentials(ImageHoster.controller.UserControllerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class ImageHoster.service.UserService.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 11.0.6+8-LTS
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 11.0.6+8-LTS
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.2
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+Caused by: java.lang.IllegalStateException: Could not find sun.misc.Unsafe
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String, [B, int, int, java.lang.ClassLoader, java.security.ProtectionDomain)
+
