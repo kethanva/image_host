@@ -134,7 +134,7 @@ public class ImageController {
             return "images/edit";
         }else{
             String error_mess = "Only the owner of the image can edit the image";
-            redirectAttributes.addFlashAttribute("passwordTypeError", error_mess);
+            redirectAttributes.addFlashAttribute("editError", error_mess);
             return "redirect:images";
         }
 
