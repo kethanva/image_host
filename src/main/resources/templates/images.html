@@ -9,7 +9,10 @@
 <header th:replace="layout :: logged-in"></header>
 <!-- Display all the images in user home page after successful log in-->
 <body>
+<div th:if="${editError}" style="float: right;width:400px;border: 3px dashed red;">Only the owner of the image can edit the image</div>
+<div th:if="${deleteError}" style="float: right;width:400px;border: 3px dashed red;">Only the owner of the image can delete the image</div>
 <h1>Welcome User. These are the images</h1>
+
 <main id="images">
     <post th:each="i : ${images}">
         <p>
@@ -18,7 +21,7 @@
         </div>
 
         <!--Change <a th:href="'/images/' + ${i.title}"> to <a th:href="'/images/' +${i.id} +'/' +${i.title}">-->
-        <a th:href="'/images/' + ${i.title}">
+        <a th:href="'/images/' + ${i.id}">
             <h3 th:text="${i.title}">Title of image</h3>
         </a>
         <i>Posted On: </i> <span th:text="${i.date}"></span>
@@ -28,5 +31,6 @@
         </p>
     </post>
 </main>
+
 </body>
 </html>

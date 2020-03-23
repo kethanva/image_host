@@ -1,4 +1,3 @@
-/*
 package ImageHoster.controller;
 
 import ImageHoster.model.User;
@@ -61,9 +60,7 @@ public class UserControllerTest {
         user.setPassword("password");
 
 
-        this.mockMvc.perform(post("/users/registration")
-                .flashAttr("user", user)
-        )
+        this.mockMvc.perform(post("/users/registration").flashAttr("user", user))
                 .andExpect(model().attribute("passwordTypeError", equalTo("Password must contain atleast 1 alphabet, 1 number & 1 special character")));
     }
 
@@ -82,9 +79,7 @@ public class UserControllerTest {
         user.setPassword("password1@");
 
 
-        this.mockMvc.perform(post("/users/registration")
-                .flashAttr("user", user)
-        )
+        this.mockMvc.perform(post("/users/registration").flashAttr("user", user))
                 .andExpect(view().name("users/login"))
                 .andExpect(content().string(containsString("Please Login:")));
     }
@@ -167,4 +162,3 @@ public class UserControllerTest {
                 .andExpect(content().string(containsString("Image Hoster")));
     }
 }
-*/
